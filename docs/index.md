@@ -105,6 +105,8 @@ The Blood Pressure script can be ran using PyCharm or from a command window. The
 ### Output using PyCharm
 Figure 4 contains a successful run of the script using PyCharm. In this example the blood_pressure.dat file did not exist in the working directory. Therefore, the script hit the exception and created the file. The initial list of readings was empty, but the list at the end of the run contained the data the user entered as shown in Figure 4:
 
+![Results of Figure 4: A successful run using PyCharm](Figure04.png "Results of Figure 4")
+
 **_Figure 4: A successful run using PyCharm_**
 
 ### Output using a command prompt
@@ -114,6 +116,7 @@ The user then launches the script again and the existing two readings are displa
 
 The script is then launched one more time and valid integers are entered. The final result is that the binary file contains a list with three dictionaries stored within. 
 
+![Results of Figure 5: A successful run using a command prompt](Figure05.png "Results of Figure 5")
 
 **_Figure 5: A successful run in a command prompt_**
 
