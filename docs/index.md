@@ -1,5 +1,7 @@
 # Structured Error Handling and Pickling
-*jcarnes*
+**dev:**  *jcarnes*  
+**date:**  *20201201*
+
 
 ## Introduction
 To demonstrate structured error handling and pickling I have created a Python script that collects and saves blood pressure readings from a user. This script requires the user to enter integer values for both the systolic and diastolic blood pressure readings, otherwise it fails with an exception. The values are then stored in a dictionary and the dictionary in a list which is saved by pickling to a binary file.
